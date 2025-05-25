@@ -7,7 +7,7 @@ if (isset($_GET['id'])) {
     // Start transaction
     $conn->begin_transaction();
 
-    try {
+    try { 
         // Prepare statements for each deletion
         $stmt1 = $conn->prepare("DELETE FROM events WHERE event_id = ?");
         $stmt2 = $conn->prepare("DELETE FROM event_info WHERE event_id = ?");
