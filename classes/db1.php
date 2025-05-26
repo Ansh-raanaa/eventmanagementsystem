@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "localhost";  // default name and pass
 $username = "root";
 $password = "";
 $dbname = "grafest";
