@@ -13,7 +13,7 @@ $result = mysqli_query($conn, "SELECT * FROM staff_coordinator s ,events e WHERE
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Preranothsava_adminPage</title>
+    <title>Grafest_adminPage</title>
     <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
 </head>
 
