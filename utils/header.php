@@ -29,6 +29,7 @@
                     <li><a href="./aboutus.php"><strong>About Us</strong></a></li>
                     <li class="btnlogout"><a class="btn btn-default navbar-btn" href="./login_form.php">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
                 </ul>
+                
             </div><!--container div-->
         </nav>
     </header>
